@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gskhenry
+    username: root
+    password: Henry523146
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    database: MYSQL
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
